@@ -1,0 +1,17 @@
+---
+title: "My functions"
+output: html_document
+date: "2024-01-28"
+---
+
+1. remind_me: My remind_me function is useful to remember appointments that are 
+the same every week. It prints "Weekly appointments" and returns  all of my 
+weekly appointments as strings. 
+
+2. Cheat: My cheat function is useful to cheat on exams. If you enter either 
+Q3.1.3 or Q3.1.12 or Q3.1.16, it returns a big string that contains the code 
+that is the correct answer to that question.
+
+3. make_art: My make_art function creates colorful images with ggplot and the 
+R Color Brewer package. The function generates random data and assigns names; 
+then it crates a plot and fills it with the colors from the random palette.  
