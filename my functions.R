@@ -1,3 +1,11 @@
+## Assignment 3.2 Solutions - 2024 Programming in Psychological Science (PIPS)
+#
+# Record of Revisions
+#
+# Date Programmer Descriptions of Change
+# ==== ================ ======================
+# 26-Jan-24 Aire Valiente Original code
+
 # Q3.2.1 -----------------------------------------------------------------------
 #Answer
 remind_me <- function(){
@@ -8,7 +16,7 @@ remind_me <- function(){
 }
 remind_me()
 
-cheat<- function(x) {
+cheat <- function(x) {
   if(x == "Q3.1.3") {
   return(
   
@@ -47,9 +55,9 @@ cheat("Q3.1.3")
 #Answer
 library(ggplot2)
 library(RColorBrewer)
-set.seed(345)
+set.seed(297)
 
-ngroup <- 30
+make_art <- function(ngroup = 30) {
 names <- paste("G_", seq(1, ngroup), sep = "") # group names
 DAT <- data.frame()
 
@@ -82,4 +90,11 @@ ggplot(DAT, aes(x = Year, y = Value, fill = Group)) +
     panel.border = element_blank(), # I hide the rectangle around the graph
     panel.background = element_blank() # I hide the background
   )
+}
+
+# Link to github
+# https://github.com/airevaliente/playground-by-aire/blob/main/my%20functions.R
+
+
+
 
